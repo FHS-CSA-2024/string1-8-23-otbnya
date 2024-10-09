@@ -173,7 +173,7 @@ public class String1
         if(str.length()>2){
             return str.substring(0,2)+str.substring(0,2)+str.substring(0,2);
         } else{
-            return str.substring(0)+str.substring(0)+str.substring(0); str;
+            return str.substring(0)+str.substring(0)+str.substring(0); //str;
         }
     }
 
@@ -281,7 +281,7 @@ public class String1
         }
         return str;
     }
-
+}
 
 
 
