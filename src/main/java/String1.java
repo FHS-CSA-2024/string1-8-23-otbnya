@@ -234,9 +234,9 @@ public class String1
      */
     public String minCat(String a, String b) {
         if(a.length()>b.length()){
-            retuun a.substring(a.length()-b.length(),a.length())+b;
+            return a.substring(a.length()-b.length(),a.length())+b;
         }else {
-            retun b.substring(b.length()-a.length(),b.length())+a;
+            return b.substring(b.length()-a.length(),b.length())+a;
         }
     }
 
