@@ -206,6 +206,7 @@ public class String1
         }else{
           return false;
         }
+    }
     /*
      * Given two strings, append them together (known as "concatenation") and return the result. 
      * However, if the concatenation creates a double-char, then omit one of the chars, 
